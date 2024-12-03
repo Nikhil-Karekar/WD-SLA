@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+<title>Feedback form</title>
+<style>
+body {font-family:Bookman Old Style, sans-serif;
+background-color:#3498db;
+margin: 22px;}
+
+h1{text-align:center;
+color:red;}
+
+form {background-color: #a3e4d7  ;
+padding: 25px;
+border-radius: 12px;
+max-width: 720px;
+margin: auto;}
+
+label {display:block;
+margin: 12px 10px;}
+
+input[type="text"],
+input[type="text"],
+input[type="email"],
+input[type="text"],
+input[type="text"],
+input[type="text"],
+select {width: 100%;
+padding: 10px;
+border: 4px solid green;
+border-radius: 4px;
+box-sizing: border-box;}
+
+input[type="submit"] {background-color:#af7ac5;
+color: black;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+border-radius: 4px;
+margin-top: 10px;}
+
+input[type="submit"]:hover {background-color:yellow;}
+</style>
+</head>
+
+<body>
+<h1>HELP & SUPPORT</h1>
+<form>
+<label for="name"> Full Name: </label>
+<input type="text" id="name"
+name="name"required>
+<label for="TEXT"> City:
+</label>
+<input type="text" id="text"
+text="text"required>
+<label for"email"> Email:</label>
+<input type = "email"
+ email= "email" required>
+<label for="issue">Issue</label > 
+<select id="Issue"name="Issue" required>
+<option value="Issue">Select a Issue
+</option> <option value="Incorrect order">
+Incorrect order</option> 
+<option value="Delayed Delivery">Delayed Delivery
+</option>
+<option value = "Difficulty with refunds ">
+Difficulty with refunds</option>
+<option value = "Technical glitches">
+Technical glitches</option>
+</select>
+
+<label for="text">Complaint:</label> 
+<input type="text" id="text"
+Complaint="text"required>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
